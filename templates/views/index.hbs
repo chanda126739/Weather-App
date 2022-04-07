@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ {{>headerlinks}}
+</head>
+
+<body>
+  {{>navbar}}
+  <!-- main header -->
+  <div class="container-fluid main_header">
+    <div class="rows">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <!-- making lft and write through row class -->
+          <!-- left side div -->
+          <div class="col-md-6 col-12 main_header_left">
+            <p>Welcome to the weather app</p>
+            <h1>Get the latest <span class= " text_clr">Weather</span> info of your city</h1>
+            <a href="/weather"><button>Check now</button></a>
+          </div>
+          <!-- right side div -->
+          <div class=" col-md-6 col-12 main_header_right  ">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class=" w-100" src="img/bg1.gif" alt="First slide">
+                </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+ {{>footer}}
+</body>
+
+</html>
